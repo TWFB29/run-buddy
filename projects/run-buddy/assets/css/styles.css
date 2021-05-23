@@ -77,9 +77,6 @@
       Section {
         padding: 60px;
     }
-        .pic {
-
-        }
       
       .hero {
         background-image: url("../images/hero-bg.jpg"); 
@@ -123,6 +120,4 @@
           margin: 0 5px;
       }
 
-      .hero-form submit {
-
-      }
+      
