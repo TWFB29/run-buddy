@@ -16,6 +16,24 @@ header h1 {
   margin: 0;
 }
 
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+  .primary-border {
+    border-color: #fce138;
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
+  }
+
 .hero {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
@@ -39,7 +57,8 @@ header h1 {
 }
 
 .hero-form p {
-  margin: 5px 0 15px 0;
+  width: 40%;
+  margin:3.5%;
 }
 
 .form-input {
@@ -97,6 +116,65 @@ Body {
       font-size: 100px;
   } 
   
+  .step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .steps { 
+    background: #fce138;
+  } 
+  
+  .step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+  }
+  
+  .step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+  }
+
+  .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  .step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .step-img {
+    flex:1 12%;
+    margin-right: 20px;
+  }
+
+  .step-img img {
+    max-width: 100%;
+  }
+  .step-text {
+    flex: 12;
+  }
+
+  .steps h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #39a6b2;
+  }
+
   footer {
     background: #fce138;
     width: 100%;
@@ -113,4 +191,8 @@ Body {
   footer div {
     line-height: 1.5;
     text-align: right;
+  }
+
+  .flex-row {
+    display: flex;
   }
